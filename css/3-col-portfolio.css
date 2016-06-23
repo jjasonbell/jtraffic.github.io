@@ -1,0 +1,136 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 45px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer .row {
+    text-align: center;
+}
+
+
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #2c3e50;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+}
+
+.social-list > li {
+    margin-right: 0px !important;
+}
+
+.title {
+    text-align: center;
+    font-family: Avenir;
+    font-weight: 100;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: #58585b;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    margin-bottom: 0px;
+}
+
+.nav-list {
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Avenir;
+    color: #636363;
+    margin-bottom: 10px;
+
+}
+
+a:focus,
+a:active,
+a:visited,
+a:link,
+a {
+    color: #58585b;
+    text-decoration: none;
+}
+
+a {
+    color: #58585b;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.list-inline > li {
+    margin-right: 17px;
+    margin-left: 14px;
+}
+
+
+/*
+(min-width : 480px) {
+    new stuff here
+}
+*/
