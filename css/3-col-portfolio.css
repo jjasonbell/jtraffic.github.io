@@ -128,7 +128,9 @@ a {
     margin-left: 14px;
 }
 
-
+.is-hidden {
+    display:none;
+}
 /*
 (min-width : 480px) {
     new stuff here
