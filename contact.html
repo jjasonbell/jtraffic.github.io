@@ -29,7 +29,8 @@
 <div class="container">
 
   <!-- Navigation -->
-  <div class="row">
+  <div class="row" id="navigation">
+    <!--
     <div class="col-lg-12">
       <a href="index.html"><h1 class="title">
       Jason Bell
@@ -50,6 +51,7 @@
       </ul>
       <hr>
     </div>
+    -->
   </div> <!-- End Navigation-->
 
   <!-- Contact -->
@@ -85,6 +87,11 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script type="text/javascript"> 
+$("document").ready(function() {
+  $("#navigation").load("navigation.html"); 
+});
+</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
