@@ -25,6 +25,7 @@
 
 <!-- jQuery -->
 <script src="js/jquery-3.0.0.min.js"></script>
+
 </head>
 
 <body>
@@ -58,15 +59,19 @@
   <div class="row">
     <div class="col-lg-6 col-lg-offset-3">
       <form id="contact-form" action="//formspree.io/j.jason.bell@gmail.com" method="post">
+      <hr>
         <input type="text" class="form-control" name="Name" placeholder="Name" required>
+        <hr>
         <input type="email" class="form-control" name="Email" placeholder="Email" required>
+        <hr>
         <textarea name="Message" class="form-control" cols="30" rows="6" placeholder="Message" required></textarea>
         <!-- CONFIG -->
         <input class="is-hidden" type="text" name="_gotcha">
         <input type="hidden" name="_subject" value="Subject">
         <input type="hidden" name="_cc" value="email@cc.com">
         <!-- /CONFIG -->
-        <input class="submit" type="submit" value="Send">
+        <hr>
+        <input class="submit btn btn-primary btn-lg" type="submit" value="Send">
       </form>
 
     </div><!-- /.col-lg-4 -->
@@ -94,7 +99,7 @@
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/formspree.js"></script>
-
+<script src="js/navigation.js"></script>
 
 </body>
 </html>
