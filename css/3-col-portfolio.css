@@ -67,6 +67,11 @@ form .btn:focus:active {
             box-shadow: none;
 }
 
+img  {
+    max-width:450px !important;
+    margin: 0 auto;
+}
+
 /* End Form stuff */
 .social-list > li {
     margin-right: 0px !important;
