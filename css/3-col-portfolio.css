@@ -67,9 +67,21 @@ form .btn:focus:active {
             box-shadow: none;
 }
 
-img  {
-    max-width:450px !important;
-    margin: 0 auto;
+
+
+@media only screen and (min-width : 992px) {
+    img  {
+        max-width:445px !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    img  {
+        max-width:445px !important;
+        margin: auto !important;
+        margin-top: -10px !important;
+    }
 }
 
 /* End Form stuff */
