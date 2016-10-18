@@ -1,4 +1,3 @@
-/*
 @font-face {
     font-family: FontAwesome;
     src: url(../stylesheets/fonts/fontawesome-webfont.eot?v=4.2.0);
@@ -87,7 +86,6 @@
     font-style: italic
 }
 
-*/
 #contents,#wrapper {
     margin: 0!important;
     padding: 0 0 25vh!important
