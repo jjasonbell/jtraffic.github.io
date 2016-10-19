@@ -1,90 +1,4 @@
-@font-face {
-    font-family: FontAwesome;
-    src: url(../stylesheets/fonts/fontawesome-webfont.eot?v=4.2.0);
-    src: url(../stylesheets/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(../stylesheets/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(../stylesheets/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(../stylesheets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
 
-@font-face {
-    font-family: 'Equity A';
-    src: url(../stylesheets/fonts/equity_text_a_regular.eot);
-    src: url(../stylesheets/fonts/equity_text_a_regular.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/equity_text_a_regular.woff2) format('woff2'),url(../stylesheets/fonts/equity_text_a_regular.woff) format('woff'),url(../stylesheets/fonts/equity_text_a_regular.ttf) format('truetype'),url(../stylesheets/fonts/equity_text_a_regular.svg#equity_text_aregular) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Equity A';
-    src: url(../stylesheets/fonts/equity_text_a_italic.eot);
-    src: url(../stylesheets/fonts/equity_text_a_italic.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/equity_text_a_italic.woff2) format('woff2'),url(../stylesheets/fonts/equity_text_a_italic.woff) format('woff'),url(../stylesheets/fonts/equity_text_a_italic.ttf) format('truetype'),url(../stylesheets/fonts/equity_text_a_italic.svg#equity_text_aitalic) format('svg');
-    font-weight: 400;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Equity A';
-    src: url(../stylesheets/fonts/equity_text_a_bold.eot);
-    src: url(../stylesheets/fonts/equity_text_a_bold.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/equity_text_a_bold.woff2) format('woff2'),url(../stylesheets/fonts/equity_text_a_bold.woff) format('woff'),url(../stylesheets/fonts/equity_text_a_bold.ttf) format('truetype'),url(../stylesheets/fonts/equity_text_a_bold.svg#equity_text_abold) format('svg');
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Equity A';
-    src: url(../stylesheets/fonts/equity_text_a_bold_italic.eot);
-    src: url(../stylesheets/fonts/equity_text_a_bold_italic.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/equity_text_a_bold_italic.woff2) format('woff2'),url(../stylesheets/fonts/equity_text_a_bold_italic.woff) format('woff'),url(../stylesheets/fonts/equity_text_a_bold_italic.ttf) format('truetype'),url(../stylesheets/fonts/equity_text_a_bold_italic.svg#equity_text_abold_italic) format('svg');
-    font-weight: 700;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Equity A Caps';
-    src: url(../stylesheets/fonts/equity_caps_a_regular.eot);
-    src: url(../stylesheets/fonts/equity_caps_a_regular.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/equity_caps_a_regular.woff2) format('woff2'),url(../stylesheets/fonts/equity_caps_a_regular.woff) format('woff'),url(../stylesheets/fonts/equity_caps_a_regular.ttf) format('truetype'),url(../stylesheets/fonts/equity_caps_a_regular.svg#equity_caps_aregular) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Equity A Caps';
-    src: url(../stylesheets/fonts/equity_caps_a_bold.eot);
-    src: url(../stylesheets/fonts/equity_caps_a_bold.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/equity_caps_a_bold.woff2) format('woff2'),url(../stylesheets/fonts/equity_caps_a_bold.woff) format('woff'),url(../stylesheets/fonts/equity_caps_a_bold.ttf) format('truetype'),url(../stylesheets/fonts/equity_caps_a_bold.svg#equity_caps_abold) format('svg');
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Triplicate T4 Code';
-    src: url(../stylesheets/fonts/triplicate_t4_code_regular.eot);
-    src: url(../stylesheets/fonts/triplicate_t4_code_regular.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/triplicate_t4_code_regular.woff2) format('woff2'),url(../stylesheets/fonts/triplicate_t4_code_regular.woff) format('woff'),url(../stylesheets/fonts/triplicate_t4_code_regular.ttf) format('truetype'),url(../stylesheets/fonts/triplicate_t4_code_regular.svg#triplicate_t4cregular) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Triplicate T4 Code';
-    src: url(../stylesheets/fonts/triplicate_t4_code_italic.eot);
-    src: url(../stylesheets/fonts/triplicate_t4_code_italic.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/triplicate_t4_code_italic.woff2) format('woff2'),url(../stylesheets/fonts/triplicate_t4_code_italic.woff) format('woff'),url(../stylesheets/fonts/triplicate_t4_code_italic.ttf) format('truetype'),url(../stylesheets/fonts/triplicate_t4_code_italic.svg#triplicate_t4citalic) format('svg');
-    font-weight: 400;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Triplicate T4 Code';
-    src: url(../stylesheets/fonts/triplicate_t4_code_bold.eot);
-    src: url(../stylesheets/fonts/triplicate_t4_code_bold.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/triplicate_t4_code_bold.woff2) format('woff2'),url(../stylesheets/fonts/triplicate_t4_code_bold.woff) format('woff'),url(../stylesheets/fonts/triplicate_t4_code_bold.ttf) format('truetype'),url(../stylesheets/fonts/triplicate_t4_code_bold.svg#triplicate_t4cbold) format('svg');
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Triplicate T4 Code';
-    src: url(../stylesheets/fonts/triplicate_t4_code_bold_italic.eot);
-    src: url(../stylesheets/fonts/triplicate_t4_code_bold_italic.eot?#iefix) format('embedded-opentype'),url(../stylesheets/fonts/triplicate_t4_code_bold_italic.woff2) format('woff2'),url(../stylesheets/fonts/triplicate_t4_code_bold_italic.woff) format('woff'),url(../stylesheets/fonts/triplicate_t4_code_bold_italic.ttf) format('truetype'),url(../stylesheets/fonts/triplicate_t4_code_bold_italic.svg#triplicate_t4cbold_italic) format('svg');
-    font-weight: 700;
-    font-style: italic
-}
 
 #contents,#wrapper {
     margin: 0!important;
@@ -217,13 +131,6 @@ html :active {
     }
 }
 
-@media print {
-    :root,body {
-        line-height: 13pt;
-        font-size: 10pt
-    }
-}
-
 @media screen {
     #contents,#wrapper,article {
         line-height: 1.4em
@@ -268,53 +175,12 @@ body>article#wrapper {
     }
 }
 
-@media print {
-    li,p {
-        text-align: justify
-    }
-}
 
-@media print and (color) {
-    * {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact
-    }
-}
 
 #printwarning {
     display: none
 }
 
-@media print {
-    #printwarning {
-        z-index: 9;
-        position: absolute;
-        top: 0;
-        left: 1cm;
-        right: 1cm;
-        background-color: rgba(255,255,0,.9);
-        padding: 1rem;
-        border: 1pt solid rgba(0,0,0,.9);
-        font-family: Helvetica,Arial,sans-serif;
-        font-size: 8pt;
-        line-height: 11pt
-    }
-
-    #printwarning img {
-        height: 30pt;
-        float: right;
-        border: 1pt solid;
-        margin-left: 1rem
-    }
-
-    #printwarning p+p {
-        text-indent: 0
-    }
-
-    #printwarning {
-        display: block
-    }
-}
 
 @media screen {
     body {
@@ -334,27 +200,7 @@ body>article#wrapper {
     }
 }
 
-@media print {
-    body {
-        overflow: auto;
-        margin: 0
-    }
 
-    #wrapper>:not(.bleed),article>:not(.bleed) {
-        max-width: 121.5mm;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    .❝,blockquote,figure,img,pre,table {
-        page-break-inside: avoid
-    }
-
-    h2,h3,p {
-        orphans: 2;
-        widows: 2
-    }
-}
 
 @media screen {
     body>header {
@@ -393,20 +239,6 @@ aside.share a:after {
     content: ""
 }
 
-@media print {
-    aside.share {
-        display: none
-    }
-}
-
-@media print {
-    body>header>a {
-        width: 2.5em;
-        height: 2.5em;
-        display: inline-block;
-        transform: translateX(6pt)
-    }
-}
 
 body {
     -webkit-text-rendering: optimizeLegibility;
@@ -435,19 +267,6 @@ p+p {
     text-indent: 2em
 }
 
-@media print {
-    p {
-        word-spacing: -.05em
-    }
-
-    p+p:first-line {
-        word-spacing: -.1em
-    }
-
-    p+p {
-        text-indent: 1em
-    }
-}
 
 @media screen and (max-width: 799px) {
     p+p {
@@ -471,36 +290,9 @@ p+p {
     }
 }
 
-a[href*="wikipedia.org"]:after,a[href*="wiktionary.org"]:after,a[href*=mailto]:after,a[href*="//"]:after {
-    content: "⇗";
-    content: "\f08e";
-    font-family: FontAwesome;
-    font-style: normal;
-    opacity: .5;
-    color: inherit;
-    position: relative;
-    line-height: 1;
-    height: 0;
-    bottom: .8ex;
-    font-size: 1.2ex;
-    margin-left: .3em;
-    margin-right: .15em
-}
 
-em a[href*="wikipedia.org"]:after,em a[href*="wiktionary.org"]:after,em a[href*=mailto]:after,em a[href*="//"]:after {
-    margin-left: .4em
-}
 
-a[href*="wikipedia.org"]:hover:after,a[href*="wiktionary.org"]:hover:after,a[href*=mailto]:hover:after,a[href*="//"]:hover:after {
-    -webkit-transition: opacity .2s ease-in-out;
-    -webkit-transition: color .2s ease-in-out;
-    opacity: 1;
-    color: #008cf0
-}
 
-a[href*="rhythmus.be"]:after {
-    content: ""
-}
 
 a[href$=".pdf"]:before {
     content: "\f1c1";
@@ -512,57 +304,9 @@ a[href$=".pdf"]:before {
     margin-right: .3em
 }
 
-a[href*="wikipedia.org"],a[href*="wiktionary.org"] {
-    font-weight: 400;
-    border-bottom: none;
-    border-bottom-color: transparent
-}
 
-a[href*="wikipedia.org"]:hover,a[href*="wiktionary.org"]:hover {
-    text-decoration: none;
-    border-bottom: solid .3ex #008cf0;
-    -webkit-transition: color border-bottom-color .2s ease-in-out;
-    -webkit-transition: border-bottom-color .2s ease-in-out
-}
 
-a[href*="wikipedia.org"]:after,a[href*="wiktionary.org"]:after {
-    font-family: inherit;
-    content: "W";
-    font-weight: 700;
-    font-style: normal
-}
 
-a[href*=mailto]:after {
-    content: "\f003"
-}
-
-a[href*=twitter]:after {
-    content: "\f099"
-}
-
-@media print {
-    article a[href^=http]:after {
-        content: " <" attr(href) ">";
-        margin-left: 0;
-        margin-right: 0;
-        bottom: 0;
-        font-size: inherit;
-        font-family: inherit;
-        font-weight: 400;
-        font-style: italic;
-        color: inherit;
-        opacity: 1
-    }
-}
-
-@media print {
-    article a[href^=http]:after {
-        -webkit-hyphens: none;
-        -moz-hyphens: none;
-        -ms-hyphens: none;
-        hyphens: none
-    }
-}
 
 em {
     font-style: italic
@@ -593,11 +337,7 @@ strong em {
     }
 }
 
-@media print {
-    strong em {
-        text-decoration: underline
-    }
-}
+
 
 del {
     text-decoration: line-through;
@@ -624,20 +364,6 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {
     text-decoration: none
 }
 
-@media print {
-    h1,h2,h3,h4,h5,h6 {
-        page-break-inside: avoid;
-        page-break-after: avoid;
-        -webkit-region-break-inside: avoid;
-        -webkit-region-break-after: avoid
-    }
-
-    h2+p,h4+p {
-        page-break-before: avoid;
-        -webkit-region-break-before: avoid;
-        break-before: avoid
-    }
-}
 
 h1:first-of-type {
     word-spacing: -.08em;
@@ -700,22 +426,6 @@ address #printready {
     }
 }
 
-@media print {
-    address #printready {
-        display: none
-    }
-}
-
-@media print {
-    article>header {
-        min-width: 100%;
-        height: 66mm;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 8.25mm;
-        display: block
-    }
-}
 
 @media screen {
     article>header {
@@ -827,16 +537,7 @@ h1:not(:first-of-type),h2 {
     }
 }
 
-@media print {
-    h2 {
-        font-size: 1.5em;
-        font-weight: 400;
-        margin-top: 3rem;
-        margin-bottom: 1.5rem;
-        padding-left: 2rem;
-        padding-right: 2rem
-    }
-}
+
 
 h3 {
     line-height: 1.3em;
@@ -919,15 +620,7 @@ ul li:before {
     content: "– "
 }
 
-@media print,screen and (min-width: 620px) {
-    ul li:before {
-        display:inline-block;
-        position: absolute;
-        text-align: right;
-        left: -1.5em;
-        width: 1em
-    }
-}
+
 
 ol li {
     list-style: decimal
@@ -996,19 +689,6 @@ pre.Shell code:before,pre.shell code:before {
     margin-right: .5em
 }
 
-@media print {
-    pre {
-        background-color: transparent!important;
-        width: 50%;
-        white-space: pre-wrap;
-        text-align: left
-    }
-
-    pre code {
-        display: inline;
-        min-width: 0
-    }
-}
 
 blockquote {
     margin-top: 1rem;
@@ -1105,14 +785,6 @@ div.❝ {
     }
 }
 
-@media print {
-    div.❝ {
-        min-width: 100%;
-        max-width: 100%;
-        padding-left: 2em;
-        padding-right: 2em
-    }
-}
 
 @media all and (max-width: 799px) {
     div.❝ {
@@ -1144,15 +816,6 @@ figure {
     }
 }
 
-@media print {
-    figure {
-        min-width: 100%
-    }
-
-    figure img {
-        height: auto
-    }
-}
 
 figure figcaption {
     margin-top: 1em;
@@ -1163,18 +826,6 @@ figure figcaption {
     font-style: italic
 }
 
-@media print {
-    figcaption {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 25%;
-        margin-top: 0;
-        padding-left: 1rem!important;
-        padding-right: 3rem!important;
-        text-align: left
-    }
-}
 
 @media screen and (max-width: 799px) {
     figure figcaption {
@@ -1210,31 +861,6 @@ figure figcaption em {
     }
 }
 
-@media print {
-    figure>figcaption,figure>img {
-        max-width: 50%;
-        margin-left: 25%;
-        margin-right: auto
-    }
-
-    figure.bleed {
-        max-width: 100%;
-        max-height: 132mm;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    figure.bleed>img {
-        min-width: 100%;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    figure.bleed:first-of-type+p {
-        margin-top: 12.375mm!important
-    }
-}
 
 iframe,video {
     display: block;
@@ -1249,38 +875,6 @@ p>iframe {
     width: calc(100%-3rem)
 }
 
-@media print {
-    figure>video {
-        max-width: 50%
-    }
-
-    figure>video>p {
-        display: none
-    }
-
-    figure>video+figcaption:after {
-        display: block;
-        position: absolute;
-        z-index: 1;
-        bottom: 2rem;
-        left: -50%;
-        content: "▶ Watch online";
-        font-family: Helvetica,Arial,sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        padding: 1em;
-        background-color: #000;
-        color: #fff;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-border-radius: 4px;
-        -khtml-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px
-    }
-}
 
 figure embed {
     width: 100%;
@@ -1475,13 +1069,8 @@ sub {
     }
 }
 
-@media print {
-    .footnotes ol li p a.reversefootnote,.footnotes ol li p a[href^="#fnref"] {
-        display: none
-    }
-}
 
-@media print,screen and (min-width: 799px) {
+@media screen and (min-width: 799px) {
     .footnotes ol {
         -webkit-columns:2;
         -moz-columns: 2;
@@ -1559,53 +1148,6 @@ a.button:hover,button:hover {
 @media screen {
     a.button img,a.button>span:last-of-type {
         display: none
-    }
-}
-
-@media print {
-    a.button {
-        height: auto;
-        width: 100%;
-        padding: 0;
-        border: none
-    }
-
-    a.button img {
-        max-height: 22pt;
-        display: block;
-        border: 1px solid;
-        margin-right: 1em;
-        float: left
-    }
-
-    a.button>span {
-        display: block;
-        font-weight: 400;
-        font-size: 9pt;
-        line-height: 12pt;
-        text-align: left;
-        color: #000
-    }
-
-    a.button>span:after {
-        content: "."
-    }
-
-    a.button>span:first-of-type {
-        font-weight: 700
-    }
-
-    a.button:after {
-        content: "";
-        display: none
-    }
-}
-
-@media print {
-    :root,body {
-        margin: 0;
-        line-height: 4.125mm;
-        font-size: 10.25pt
     }
 }
 

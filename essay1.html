@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Beautiful on all devices</title>
+    <title>The Magic of Feel</title>
+    <meta charset="utf-8">
+    <link href='css/essay1.css' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
-    <meta charset="utf-8">
-    <link href='Rhythmus.css' rel='stylesheet' type='text/css'>
     <article id="wrapper">
         <header class="donthyphenate">
-        <h1>Brands: The Hardest Assets</h1>
-        <p>Building print and online editions from a single input</p>
+        <h1>The Magic of Feel</h1>
         </header>
         <p>Last month we released a brand-new online journal: <a href=
         "http://maja.jongeacademie.be/2"><em>Maja</em>, “Magazine van de Jonge
@@ -50,8 +50,7 @@
             <li>
                 <strong>Dump some Word files in your
                 Dropbox.</strong>⁠<a class="footnoteRef" href="#fn3" id=
-                "fnref3"><sup>3</sup></a>⁠<a class="footnoteRef" href="#fn4"
-                id="fnref4"><sup>4</sup></a>
+                "fnref3"><sup>3</sup></a>⁠
             </li>
             <li><strong>Click “Publish”.</strong></li>
             <li><strong>Have your publication automatically built and
@@ -161,11 +160,6 @@
         build process, too. Much of what we’re describing in this article
         already is available as standard features.</p>
        
-        <div class="❝">
-            With an easy to follow convention, creating the online edition is
-            as simple as drafting its table of contents.
-        </div>
-        
         <p>From the folder tree, we create a provisory hierarchical structure
         for the publication, which can then be further edited in an
         <code>index</code> file, which allows the editor to exclude, hide and
@@ -177,12 +171,7 @@
         which the entire publication will be built <em>and</em> from which both
         the visible table-of-contents and interactive, navigational menus are
         generated, fully automatically.</p>
-        
-        <p>In any case, you should follow me on Twitter @<a href=
-        "https://twitter.com/rhythmvs">rhythmvs</a>.</p>
-        <div style="text-align:center;">
-            <span>Fill out the form at https://goo.gl/AFP0IO</span> 
-        </div>
+
         <section class="footnotes">
             <hr>
             <ol>
@@ -222,97 +211,8 @@
                     "http://rhythmus.be/md2indd">previous article</a>.<a href=
                     "#fnref3">↩</a></p>
                 </li>
-                <li id="fn4">
-                    <p>We’re working on integration with multiple cloud hosting
-                    services, from which to pull your source files, including
-                    <a href="https://www.dropbox.com">Dropbox</a>, <a href=
-                    "www.google.com/docs/about/">Google Docs</a>, <a href=
-                    "https://www.google.com/drive/index.html">Google Drive</a>
-                    and <a href="https://onedrive.live.com">OneDrive</a>.
-                    Alternatively — if you’d rather prefer (like we do)
-                    versioned file histories and changelogs — we’ll have
-                    <a href="http://githooks.com">post-commit hooks</a> in
-                    place, listening to your <code>git push</code>es to repo’s
-                    on <a href="https://bitbucket.org">Bitbucket</a> or
-                    <a href="https://github.com">Github</a>.<a href=
-                    "#fnref4">↩</a></p>
-                </li>
-                <li id="fn5">
-                    <p>Our application is built with <a href=
-                    "https://www.meteor.com">Meteor.js</a>, a cutting-edge
-                    JavaScript framework, with a common source base for both
-                    client (the browser) and server (Node.js). Our back-end has
-                    a deliberate database-less design, and most functionality
-                    is completely file-based. Instead of trying to re-invent
-                    the wheel with another take on the paradigm of bloated
-                    CMS’es, we’re reviving the age-old, tried and tested ease
-                    of use of working with simple files and folders for
-                    managing content.<a href="#fnref5">↩</a></p>
-                </li>
-                <li id="fn6">
-                    <p><a href="http://jongeacademie.be/book/index.html">See
-                    for yourself.</a> Apparently it was made with <a href=
-                    "http://flippingbook.com">FlippingBook</a> Publisher
-                    v2.4.5.<a href="#fnref6">↩</a></p>
-                </li>
-                <li id="fn7">
-                    <p>Instead of trying to outsmart the Web’s ecosystem with
-                    such paperesque booklet-facsimile widgettery, a simple dump
-                    on the static file server would have been a way better
-                    means of deployment, hard-linking to the pdf’s raw url and
-                    having the user’s browser to decide whether and how to
-                    render on screen or triggering a download.<a href=
-                    "#fnref7">↩</a></p>
-                </li>
-                <li id="fn8">
-                    <p>When lightweight markup languages came around (in the
-                    early 2000s) only the most basic of html tags were
-                    envisioned and put into the prototype implementations.
-                    Markdown suffers highly from fragmentation and fell apart
-                    into many “dialects”, precisely because different use cases
-                    needed different extensions. Support for footnotes, tables
-                    and other dearly needed content types has been built into
-                    Markdown “forks” like <a href=
-                    "https://help.github.com/articles/github-flavored-markdown">
-                    Github Flavored Markdown (GFM)</a>, <a href=
-                    "http://kramdown.gettalong.org">Kramdown</a>, <a href=
-                    "http://fletcherpenney.net/multimarkdown">Multi&shy;Markdown</a>,
-                    <a href=
-                    "http://pandoc.org/README.html#pandocs-markdown">Pandoc’s
-                    Mark&shy;down</a>, and <a href=
-                    "https://michelf.ca/projects/php-markdown/extra">PHP
-                    Markdown Extra</a>. Still, these Markdown flavors lack many
-                    important extensions and content types. Besides Markdown
-                    there exist alternative lightweight markup languages with
-                    bigger feature sets and much broader support for different
-                    content element types, such as <a href=
-                    "http://asciidoctor.org/docs/asciidoc-writers-guide/">AsciiDoc</a>
-                    and <a href=
-                    "http://docutils.sourceforge.net/docs/user/rst/quickstart.html">
-                    reStructuredText</a>. Although their user communities are
-                    highly dedicated, these alternatives lack wide adoption,
-                    and so, I guess, there’s little left but betting on
-                    building further on top of Markdown. In order to work
-                    towards a standard, guaranteeing interchangeability between
-                    different Markdown flavors and backward compatibility, the
-                    <a href="http://commonmark.org">Common Mark</a> initiative
-                    was set up, September 2014. The Common Mark community is
-                    <a href="http://talk.commonmark.org">lively discussing</a>
-                    extensions, syntax and standard behavior of parser
-                    implementations. But extra content element types make it
-                    very slowly into the official “spec”. At Rhythmus, we have
-                    been building on our own extensions to Markdown, adding the
-                    widest support for content elements that are required for
-                    professional publications.<a href="#fnref8">↩</a></p>
-                </li>
             </ol>
         </section>
     </article>
-    <script>
-    window.onbeforeprint = (function() {
-    var now = new Date();
-    document.getElementById("printingDate").innerHTML = now;
-    })();
-    </script>
 </body>
 </html>
