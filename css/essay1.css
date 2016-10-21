@@ -1009,7 +1009,7 @@ a.footnoteRef:hover {
 
 sub,sup {
     font-size: 1.4ex;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1;
     height: 0;
     position: relative
