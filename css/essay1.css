@@ -227,18 +227,6 @@ body>header>a>object {
     pointer-events: none
 }
 
-aside.share {
-    display: block;
-    font-size: .85rem;
-    margin-top: 3rem;
-    text-align: right;
-    padding-right: 3rem!important
-}
-
-aside.share a:after {
-    content: ""
-}
-
 
 body {
     -webkit-text-rendering: optimizeLegibility;
@@ -273,6 +261,7 @@ p+p {
         text-indent:1em
     }
 }
+
 
 @media screen {
     :not(.footnotes) a:not(.footnoteRef):not(.button) {
@@ -349,8 +338,10 @@ s {
     text-decoration: line-through
 }
 
+
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 400;
+    font-family: Avenir;
+    font-weight: 400 !important;
     line-height: 1em;
     font-size: inherit;
     text-align: center
@@ -386,59 +377,15 @@ h1:first-of-type+p:first-of-type em {
     font-style: normal
 }
 
-@media screen and (min-height: 800px) and (min-width:800px) {
-    address:before {
-        content:"—";
-        display: block;
-        margin-bottom: 1rem
-    }
-}
-
-address {
-    font-style: normal;
-    font-size: .8em;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem
-}
-
-address #printready>a {
-    border-bottom-color: transparent;
-    font-style: normal
-}
-
-address #printready>a:hover {
-    border-bottom-color: currentColor
-}
-
-address #printready>time {
-    font-style: normal
-}
-
-address #printready {
-    white-space: nowrap;
-    font-style: italic
-}
-
-@media screen and (min-width: 410px) {
-    address #printready:before {
-        content:" — "
-    }
-}
-
 
 @media screen {
     article>header {
-        min-height: 320px;
+        min-height: 280px;
         width: 100%
     }
 }
 
-@media screen and (min-height: 500px) {
-    article>header {
-        height:50vh
-    }
-}
+
 
 @media all and (min-height: 500px) {
     article>header {
@@ -498,6 +445,7 @@ article>header>address,article>header>h1,article>header>h1+p {
         text-align: left!important
     }
 }
+
 
 article>header+p {
     text-indent: 0
@@ -690,71 +638,6 @@ pre.Shell code:before,pre.shell code:before {
 }
 
 
-blockquote {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 3rem!important;
-    padding-right: 3rem!important;
-    position: relative
-}
-
-blockquote p:not(:last-child),blockquote p:only-child {
-    font-style: italic
-}
-
-blockquote p:not(:last-child) em,blockquote p:only-child em {
-    font-style: normal
-}
-
-@media screen and (max-width: 799px) {
-    blockquote {
-        padding-left:1rem;
-        padding-right: 0
-    }
-}
-
-blockquote>p {
-    position: relative
-}
-
-#wrapper>blockquote>p:not(:last-child):before,blockquote>p:only-child:before {
-    content: "» » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » » ";
-    line-height: 1.5rem;
-    font-style: normal;
-    text-indent: -3rem;
-    display: block;
-    position: absolute;
-    width: .5em;
-    left: -1em;
-    top: 0;
-    bottom: 0;
-    overflow-y: hidden;
-    text-align: right
-}
-
-@media screen and (max-width: 799px) {
-    blockquote>p:not(:last-child):before,blockquote>p:only-child:before {
-        left:-1.5em;
-        text-indent: 0
-    }
-}
-
-blockquote>p+p:last-child {
-    margin-top: 1rem;
-    padding-right: 3rem;
-    text-align: right
-}
-
-blockquote>p+p:last-child:not(:only-child):before {
-    content: ""
-}
-
-@media screen and (max-width: 799px) {
-    blockquote>p+p:last-child {
-        padding-right:1em
-    }
-}
-
 div.❝ {
     max-width: 80rem;
     font-size: 2em;
@@ -920,59 +803,10 @@ colgroup {
     display: table-column-group
 }
 
-td,th {
-    display: table-cell
-}
 
-tr {
-    display: table-row
-}
-
-table {
-    min-width: 33rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem
-}
-
-th {
-    font-weight: 700
-}
-
-td {
-    padding: 0;
-    margin-right: 5px
-}
-
-td:last-child {
-    text-align: right
-}
-
-thead tr th {
-    border-bottom: 1px solid rgba(0,0,0,.1)
-}
-
-tfoot {
-    margin-top: 2rem;
-    border-top: solid 1px gray;
-    font-style: italic
-}
 
 caption {
     font-weight: 700
-}
-
-table tbody tr:nth-of-type(odd) {
-    background-color: rgba(255,255,255,.5)
-}
-
-table tbody tr:nth-of-type(even) {
-    background-color: transparent
-}
-
-table tfoot,table tfoot tr {
-    background-color: transparent!important
 }
 
 a.footnoteRef {
@@ -1149,11 +983,4 @@ a.button:hover,button:hover {
     a.button img,a.button>span:last-of-type {
         display: none
     }
-}
-
-@page {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20.625mm;
-    margin-bottom: 20.625mm
 }
