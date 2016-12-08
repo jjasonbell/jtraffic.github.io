@@ -95,11 +95,11 @@ img {
 
 .title {
     text-align: center;
-    font-family: Avenir;
+    font-family: Muli;
     font-weight: 100;
     font-size: xx-large;
     text-transform: uppercase;
-    color: #58585b;
+    color: #727272;
     letter-spacing: 10px;
     word-spacing: 20px;
     margin-bottom: 0px;
@@ -108,7 +108,7 @@ img {
 .nav-list {
     text-align: center;
     letter-spacing: 3px;
-    font-family: Avenir;
+    font-family: Muli;
     color: #636363;
     margin-bottom: 10px;
 
