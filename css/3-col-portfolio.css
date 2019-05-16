@@ -13,6 +13,11 @@ body {
     margin-bottom: 25px;
 }
 
+.essay_link:hover {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
 footer {
     margin: 50px 0;
 }
@@ -21,6 +26,7 @@ footer .row {
     text-align: center;
 }
 
+#essay_list { display:table; margin:0 auto;}
 
 /* Form stuff */
 form .form-control {
