@@ -984,3 +984,7 @@ a.button:hover,button:hover {
         display: none
     }
 }
+
+#return_link {
+    text-align: center;
+}
